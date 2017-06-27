@@ -5,9 +5,15 @@ function Alarm(currentTime, userAlarm) {
   this.userAlarm = userAlarm;
 }
 
-// Alarm.prototype.alarmNotification = function() {
-//    return this.currentTime.isBefore(this.userAlarm);
-// }
+Alarm.prototype.alarmNotification = function(currentTime, alarmTime) {
+  if (currentTime <= alarmTime) {
+    return "this works";
+
+  } else {
+    return "still might work";
+  }
+  // console.log('hello');
+};
 
 
 
