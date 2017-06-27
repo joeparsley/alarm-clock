@@ -1,12 +1,12 @@
 {
-  "name": "Sample Project",
+  "name": "AlarmClock",
   "version": "1.0.0",
-  "description": "This is a scaffold for a sample project",
+  "description": "This is an alarm clock website",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Dani Trulls and Jared Eiseman",
+  "author": "Julian Flood Joe Parsley",
   "license": "ISC",
   "devDependencies": {
     "bower-files": "^4.0.0",

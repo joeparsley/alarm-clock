@@ -1,6 +1,6 @@
 {
-  "name": "Sample Project",
-  "description": "This is a scaffold for a sample project",
+  "name": "AlarmClock",
+  "description": "This is an alarm clock website",
   "main": "index.js",
   "license": "ISC",
   "homepage": "",
@@ -12,6 +12,10 @@
     "tests"
   ],
   "dependencies": {
-    "jquery": "^3.2.1"
+    "jquery": "^3.2.1",
+    "moment": "^2.18.1"
+  },
+  "devDependencies": {
+    "bootstrap": "^3.3.7"
   }
 }

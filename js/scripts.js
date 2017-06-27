@@ -1,10 +1,14 @@
 //business logic stuff for a particular module
-var ExampleModule = function(args) {
-  this.args = args; //to be replaced with constructor arguments
-};
 
-ExampleModule.prototype.examplePrototype = function() {
-  return 'this is an example prototype method';
-};
+function Alarm(currentTime, userAlarm) {
+  this.currentTime = currentTime;
+  this.userAlarm = userAlarm;
+}
 
-exports.exampleModule = ExampleModule;
+// Alarm.prototype.alarmNotification = function() {
+//    return this.currentTime.isBefore(this.userAlarm);
+// }
+
+
+
+exports.alarmModule = Alarm;
